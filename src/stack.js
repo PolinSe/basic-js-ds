@@ -18,7 +18,7 @@ class Stack {
   }
 
   push(element) {
-    return this.array.push(element)
+    this.array.push(element)
   }
 
   pop() {
