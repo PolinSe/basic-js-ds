@@ -39,7 +39,6 @@ class Queue {
 
   dequeue() { // извлекает элемент с начала и удаляет его
     let current = this.head
-    // this.head = current.next 
     this.head = this.head.next
     this.length--
     return current.value
